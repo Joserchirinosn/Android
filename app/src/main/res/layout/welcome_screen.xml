@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:id="@+id/backToChange"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="cleanpress.cleanpress.WelcomeScreen">
+
+    <ImageView
+        android:id="@+id/imgToChange"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="130dp"
+        android:src="@drawable/prices__blouses"
+        />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/principalContent"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        />
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/radio_group"
+        android:gravity="center"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/page1"
+            android:onClick="showPage"
+            android:checked="true"
+            android:buttonTint="#fff"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/page2"
+            android:onClick="showPage"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:buttonTint="#fff"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/page3"
+            android:onClick="showPage"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:buttonTint="#fff"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/page4"
+            android:onClick="showPage"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:buttonTint="#fff"
+            />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:text="Sign Up"
+            android:onClick="toSign"
+            android:layout_weight="0.5"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:text="Log in"
+            android:onClick="toLogin"
+            android:layout_weight="0.5"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Connect with Facebook"
+        android:textAllCaps="false"
+        android:onClick="logFB"
+        android:textSize="20sp"/>
+
+</LinearLayout>

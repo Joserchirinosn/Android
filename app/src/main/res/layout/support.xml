@@ -1,0 +1,165 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:weightSum="1">
+
+    <TextView
+
+        style="@style/FontTextSupport"
+        android:id="@+id/show_faqs"
+        android:layout_marginTop="00dp"
+        android:text="@string/title_support"/>
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="320dp"
+        android:background="#fff">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/Faqs">
+
+                <TextView
+                    style="@style/textViewTitleSupport"
+                    android:text="@string/title_support1"
+                    android:id="@+id/faqs1_t"/>
+
+                <TextView
+                    style="@style/textViewContentSuppport"
+                    android:id="@+id/Faqs_1"
+                    android:text="@string/faqs1"/>
+
+                <TextView
+                    style="@style/textViewTitleSupport"
+                    android:text="@string/title_support2"
+                    android:id="@+id/faqs2_t"/>
+
+                <TextView
+                    style="@style/textViewContentSuppport"
+                    android:id="@+id/Faqs_2"
+                    android:text="@string/faqs2" />
+
+
+                <TextView
+                    style="@style/textViewTitleSupport"
+                    android:text="@string/title_support3"
+                    android:id="@+id/faqs3_t"/>
+
+                <TextView
+                    style="@style/textViewContentSuppport"
+                    android:id="@+id/Faqs_3"
+                    android:text="@string/faqs3"/>
+
+                <TextView
+                    style="@style/textViewTitleSupport"
+                    android:text="@string/title_support4"
+                    android:id="@+id/faqs4_t"/>
+
+                <TextView
+                    style="@style/textViewContentSuppport"
+                    android:id="@+id/Faqs_5"
+                    android:text="@string/faqs3"/>
+
+                <TextView
+                    style="@style/textViewTitleSupport"
+                    android:text="@string/title_support6"
+                    android:id="@+id/faqs6_t"/>
+
+                <TextView
+                    style="@style/textViewContentSuppport"
+                    android:id="@+id/Faqs_6"
+                    android:text="@string/faqs6"/>
+
+                <TextView
+                    style="@style/textViewTitleSupport"
+                    android:text="@string/title_support7"
+                    android:id="@+id/faqs7_t"/>
+
+                <TextView
+                    style="@style/textViewContentSuppport"
+                    android:id="@+id/Faqs_7"
+                    android:text="@string/faqs7"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.09">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Contact Clean Press Support"
+            android:id="@+id/ContactCPS"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:gravity="center_horizontal"
+            android:textColor="#FF03E1ED"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.85">
+
+        <Button
+
+            style="@style/IconsSupport"
+            android:background="@drawable/call_button"
+            android:layout_marginTop="8dp"
+            android:drawableTop="@drawable/support_call"
+            android:id="@+id/call_support"
+            android:onClick="call"/>
+        <Button
+            style="@style/IconsSupport"
+            android:background="@drawable/sms_button"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="15dp"
+            android:drawableTop="@drawable/tw_white"
+            android:id="@+id/twitter_support"
+            android:onClick="openTweet"/>
+
+        <Button
+            style="@style/IconsSupport"
+            android:background="@drawable/fb_button"
+            android:drawableTop="@drawable/fb_white"
+            android:layout_marginTop="15dp"
+            android:id="@+id/fb_support"
+            android:onClick="openFB"/>
+
+        <Button
+            style="@style/IconsSupport"
+            android:background="@drawable/fb_button"
+            android:drawableTop="@drawable/fb_white"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/clean_web"
+            android:onClick="openWeb"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:visibility="visible"
+        android:id="@+id/princ_lay"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/android_icn"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="You click, we clean"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="New Pickup Request"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:background="#03e1ed"
+            android:layout_marginTop="100dp"
+            android:id="@+id/toPickupRequest"
+            />
+    </LinearLayout>

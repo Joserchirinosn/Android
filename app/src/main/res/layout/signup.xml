@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/backTochangeSignUp"
+    android:orientation="vertical"
+    tools:context="cleanpress.cleanpress.Signup">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/android_icn"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#34000000"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.5"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:background="#00ffffff"
+                android:paddingLeft="16dp"
+                android:textCursorDrawable="@drawable/cursor_color"
+                android:paddingStart="16dp"
+                android:paddingEnd="0dp"
+                android:paddingRight="0dp"
+                android:inputType="textPersonName"
+                android:id="@+id/Name"
+                android:nextFocusRight="@+id/Lastname"
+                android:hint="FirstName"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.5"
+                android:textColor="#fff"
+                android:background="#00ffffff"
+                android:textColorHint="#fff"
+                android:paddingLeft="16dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="0dp"
+                android:paddingRight="0dp"
+                android:id="@+id/Lastname"
+                android:inputType="textPersonName"
+                android:textCursorDrawable="@drawable/cursor_color"
+                android:hint="LastName"/>
+        </LinearLayout>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:paddingLeft="16dp"
+            android:paddingStart="16dp"
+            android:background="#00ffffff"
+            android:id="@+id/Phone"
+            android:paddingEnd="0dp"
+            android:paddingRight="0dp"
+            android:inputType="phone"
+            android:textCursorDrawable="@drawable/cursor_color"
+            android:hint="Phone"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:background="#00ffffff"
+            android:id="@+id/Email"
+            android:paddingLeft="16dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="0dp"
+            android:paddingRight="0dp"
+            android:inputType="textEmailAddress"
+            android:textCursorDrawable="@drawable/cursor_color"
+            android:hint="Email"/>
+        <EditText
+            android:textCursorDrawable="@drawable/cursor_color"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:paddingLeft="16dp"
+            android:background="#00ffffff"
+            android:paddingStart="16dp"
+            android:id="@+id/Pass"
+            android:paddingEnd="0dp"
+            android:paddingRight="0dp"
+            android:inputType="textPassword"
+            android:hint="Password"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="14sp"
+            android:text="By clicking Create Account, I agree to Clean Press"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.45"
+                android:gravity="right"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:clickable="true"
+                android:onClick="regTerms"
+                android:text="Terms of Use"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:text="and"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.45"
+                android:gravity="left"
+                android:textSize="14sp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:clickable="true"
+                android:onClick="regPolicy"
+                android:text="Privacy Policy"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#03e1ed"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:text="Create Account"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:layout_marginTop="70dp"
+            android:onClick="registerUser"
+            android:enabled="false"
+            android:id="@+id/registerUserAcc"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

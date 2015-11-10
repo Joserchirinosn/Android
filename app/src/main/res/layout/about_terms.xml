@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/terms_txt"
+                android:text="@string/title_activity_terms_about"
+                android:textSize="23sp"
+                android:textColor="#03e1ed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+                android:id="@+id/content1"
+                android:text="@string/terms_conditions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/terms_txt"
+                android:layout_marginTop="35dp"
+                />
+            <TextView
+                android:id="@+id/content2"
+                android:text="@string/terms_conditions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/content1"
+                />
+            <TextView
+                android:id="@+id/content3"
+                android:text="@string/terms_conditions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/content2"
+                android:layout_marginTop="15dp"
+                />
+            <TextView
+                android:id="@+id/content4"
+                android:text="@string/terms_conditions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/content3"
+                />
+            <TextView
+                android:id="@+id/content5"
+                android:text="@string/terms_conditions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/content4"
+                android:layout_marginTop="15dp"
+                />
+            <TextView
+                android:id="@+id/content6"
+                android:text="@string/terms_conditions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/content5"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

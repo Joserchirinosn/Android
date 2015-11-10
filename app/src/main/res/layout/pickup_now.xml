@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:scrollbars="none"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="300dp" android:id="@+id/myMap"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#03e"
+        android:text="Estimated time"
+        android:gravity="center"
+        android:id="@+id/timeDriver"
+        android:textSize="17sp"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="110dp"
+        android:id="@+id/full_address"
+        android:paddingRight="110dp"
+        android:hint="Your Address"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:visibility="visible"
+        android:textColor="#444"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:visibility="gone"
+    android:id="@+id/edit_Fields">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="0.6"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:hint="Address"
+            android:gravity="center"
+            android:id="@+id/Address"
+            android:textSize="16sp"
+            android:background="@drawable/address_button"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="0.4"
+            android:layout_height="40dp"
+            android:id="@+id/unitSuite"
+            android:hint="Unit/Suite"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:background="@drawable/address_button"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="0.4"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:hint="City"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:id="@+id/city"
+            android:background="@drawable/address_button"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:hint="State"
+            android:id="@+id/state"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:background="@drawable/address_button"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="40dp"
+            android:hint="Zipcode"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:id="@+id/zipcode"
+            android:background="@drawable/address_button"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#03e"
+        android:layout_marginTop="5dp"
+        android:text="Is pickup address correct?"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:textColor="#fff"/>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnsLayout"
+        android:orientation="horizontal">
+        
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="40dp"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:background="#79d8de"
+            android:id="@+id/another_address"
+            android:text="No"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="40dp"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:background="#03e1ed"
+            android:id="@+id/accept_confirm"
+            android:text="Yes"/>
+
+    </LinearLayout>
+
+    <Button
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:background="#03e1ed"
+        android:id="@+id/nsaveDate"
+        android:text="Save Date"/>
+</LinearLayout>
+</ScrollView>

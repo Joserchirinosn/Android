@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Some content over here"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_marginTop="30dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Credit Card Number*"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/cc_number"
+        android:layout_marginTop="40dp"
+        android:textSize="18sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="40dp"
+            android:hint="MM*"
+            android:paddingLeft="10dp"
+            android:paddingStart="10dp"
+            android:paddingRight="0dp"
+            android:paddingEnd="0dp"
+            android:inputType="number"
+            android:id="@+id/cc_mm"
+            android:textSize="18sp"
+            />
+
+        <View
+            android:layout_width="1.5dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:background="#999999"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginEnd="0dp"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginEnd="0dp"
+            android:paddingLeft="10dp"
+            android:paddingStart="10dp"
+            android:paddingRight="0dp"
+            android:paddingEnd="0dp"
+            android:hint="YYYY*"
+            android:inputType="number"
+            android:id="@+id/cc_yy"
+            android:textSize="18sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="40dp"
+            android:hint="CVC*"
+            android:paddingLeft="10dp"
+            android:paddingStart="10dp"
+            android:paddingRight="0dp"
+            android:paddingEnd="0dp"
+            android:inputType="numberPassword"
+            android:id="@+id/cc_cvc"
+            android:textSize="18sp"
+            />
+        <View
+            android:layout_width="1.5dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:background="#999999"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginEnd="0dp"
+            android:textSize="16sp"
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginEnd="0dp"
+            android:hint="Zipcode*"
+            android:inputType="number"
+            android:id="@+id/cc_zip"
+            android:paddingLeft="10dp"
+            android:paddingStart="10dp"
+            android:paddingRight="0dp"
+            android:paddingEnd="0dp"
+            android:textSize="18sp"
+            />
+
+    </LinearLayout>
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:contentDescription="Card Images"
+    android:src="@android:drawable/sym_contact_card"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="here will be a comment \n here will be a comment \n here will be a comment"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="140dp"
+        android:id="@+id/saveCard"
+        android:background="#03e1ed"
+        android:text="Enter Payment Information"
+        
+        />
+</LinearLayout>

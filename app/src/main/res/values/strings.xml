@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Clean Press</string>
+    <string name="title_activity_principal_view">Clean Press</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="cont1">contenido 1</string>
+    <string name="cont2">contenido 2</string>
+    <string name="cont3">contenido 3</string>
+    <string name="cont4">contenido 4</string>
+
+    <string name="title_activity_sign_terms">Terms of Use</string>
+
+    <string name="title_section1">New PickUp Request</string>
+    <string name="title_section2">My Orders</string>
+    <string name="title_section3">Profile</string>
+    <string name="title_section4">Pricing</string>
+    <string name="title_section5">Support Center</string>
+    <string name="title_section6">Send Feedback</string>
+    <string name="title_section7">About Us</string>
+    <string name="title_section8">Log Out</string>
+
+    <string-array name="NavDrawerTitles">
+        <item>New Pickup Request </item>
+        <item>My Orders</item>
+        <item>Profile</item>
+        <item>Pricing</item>
+        <item>Support Center</item>
+        <item>Send Feedback</item>
+        <item>About Us</item>
+        <item>Log Out</item>
+    </string-array>
+    <string-array name="icons">
+        <item>@drawable/ic_cast_dark  </item>
+        <item>@drawable/ic_cast_dark </item>
+        <item>@drawable/ic_cast_dark  </item>
+        <item>@drawable/ic_cast_dark </item>
+        <item>@drawable/ic_cast_dark </item>
+        <item>@drawable/ic_cast_dark </item>
+        <item>@drawable/ic_cast_dark </item>
+        <item>@drawable/ic_cast_dark </item>
+    </string-array>
+    <string name="title_activity_terms_about">TERMS OF USE</string>
+    <string name="about">2853 Executive Park Dr Suite 201 Weston, FL 33331</string>
+    <string name="about_phone">Office (786)708 - 4590</string>
+    <string name="title_activity_about_terms">Terms of Use</string>
+    <string name="title_activity_about_policy">Privacy Policy</string>
+    <string name="terms_conditions">With 24-hour turnaround, green cleaning, pre-sunrise through late night availability, and a cookie at every pick up, Cleanpress is the easiest, tastiest, and most convenient dry cleaning &amp; laundry option around.</string>
+    <string name="faqs1">With 24-hour turnaround, green cleaning, pre-sunrise through late night availability, and a cookie at every pick up, Cleanpress is the easiest, tastiest, and most convenient dry cleaning &amp; laundry option around.</string>
+    <string name="faqs2">With 24-hour turnaround, green cleaning, pre-sunrise through late night availability, and a cookie at every pick up, Cleanpress is the easiest, tastiest, and most convenient dry cleaning &amp; laundry option around.</string>
+    <string name="faqs3">With 24-hour turnaround, green cleaning, pre-sunrise through late night availability, and a cookie at every pick up, Cleanpress is the easiest, tastiest, and most convenient dry cleaning &amp; laundry option around.</string>
+    <string name="faqs4">With 24-hour turnaround, green cleaning, pre-sunrise through late night availability, and a cookie at every pick up, Cleanpress is the easiest, tastiest, and most convenient dry cleaning &amp; laundry option around.</string>
+    <string name="faqs5">With 24-hour turnaround, green cleaning, pre-sunrise through late night availability, and a cookie at every pick up, Cleanpress is the easiest, tastiest, and most convenient dry cleaning &amp; laundry option around.</string>
+    <string name="faqs6">With 24-hour turnaround, green cleaning, pre-sunrise through late night availability, and a cookie at every pick up, Cleanpress is the easiest, tastiest, and most convenient dry cleaning &amp; laundry option around.</string>
+    <string name="faqs7">With 24-hour turnaround, green cleaning, pre-sunrise through late night availability, and a cookie at every pick up, Cleanpress is the easiest, tastiest, and most convenient dry cleaning &amp; laundry option around.</string>
+    <string name="title_support">Frequently Asked Questions</string>
+    <string name="title_support1">WHAT DOES CLEANPRESS DO?</string>
+    <string name="title_support2">HOW DO I SIGN UP?</string>
+    <string name="title_support3">HOW DO I SCHEDULE A PICKUP?</string>
+    <string name="title_support4">WHERE DOES MY ORDER GO FOR CLEANING?</string>
+    <string name="title_support5">HOW AM I BILLED?</string>
+    <string name="title_support6">HOW DO I CONTACT SUPPORT?</string>
+    <string name="title_support7">IS THERE AN ORDER MINIMUM?</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>
+

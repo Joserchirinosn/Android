@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#503e">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:text="When should we arrive?"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="195dp"
+            android:src="@drawable/prices__blouses"
+            android:id="@+id/img1"
+            />
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/prices__dress_pants"
+            android:layout_toRightOf="@+id/img1"
+            android:layout_marginLeft="-150dp"
+            android:layout_marginStart="-150dp"
+            android:id="@+id/secondImg"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:drawableLeft="@drawable/support_call"
+            android:drawableStart="@drawable/support_call"
+            android:paddingLeft="20dp"
+            android:background="#6603e1ed"
+            android:layout_below="@+id/secondImg"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/white_buttons"
+            android:layout_below="@+id/secondImg"
+            android:text="Schedule Pickup"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:paddingLeft="10dp"
+            android:textColor="#000"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingRight="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/toSchedule"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="195dp"
+            android:src="@drawable/prices__blouses"
+            android:id="@+id/img2"
+            />
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/prices__dress_pants"
+            android:layout_toRightOf="@+id/img2"
+            android:layout_marginLeft="-150dp"
+            android:layout_marginStart="-150dp"
+            android:id="@+id/thirdImg"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:drawableLeft="@drawable/support_call"
+            android:drawableStart="@drawable/support_call"
+            android:paddingLeft="20dp"
+            android:background="#6603e1ed"
+            android:layout_below="@+id/thirdImg"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/white_buttons"
+            android:layout_below="@+id/thirdImg"
+            android:text="Pickup Now"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:id="@+id/toPickup"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginRight="10dp"
+            />
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#f400"
+        android:text="Cancel Request"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:id="@+id/cancelRequest"
+        />
+
+</LinearLayout>
